@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Basic Options",
+    "description": "Basic parameters used to run STplot",
+    "hidden": false,
+    "parameters": [
+      "input.file",
+      "genes",
+      "samples"
+    ]
+  },
+  {
+    "name": "Display Options",
+    "description": "Options for customizing the look and feel of plots",
+    "hidden": false,
+    "parameters": [
+      "color.palette",
+      "colors",
+      "point.size"
+    ]
+  },
+  {
+    "name": "Domain Options",
+    "description": "Options for plots utilizing spatial domain (clustering) data",
+    "hidden": true,
+    "parameters": [
+      "spatial.weights",
+      "dynamic.tree.cut",
+      "minimum.clusters",
+      "maximum.clusters",
+      "deep.split"
+    ]
+  },
+  {
+    "name": "Grid Options",
+    "description": "Options for arranging the resulting plots in a grid",
+    "hidden": true,
+    "parameters": [
+      "display.in.grid",
+      "grid.rows",
+      "grid.columns",
+      "common.legend",
+      "legend.location"
+    ]
+  }
+]
