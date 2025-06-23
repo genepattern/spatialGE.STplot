@@ -5,6 +5,7 @@ author=Thorin Tabor;UCSD - Mesirov Lab
 categories=spatial transcriptomics
 commandLine=Rscript /spatialGE/wrapper.R -f <input.file> <genes> <samples> <color.palette> <colors> <point.size> <spatial.weights> <dynamic.tree.cut> <minimum.clusters> <maximum.clusters> <deep.split> -j <display.in.grid> <grid.rows> <grid.columns> -m <common.legend> -n <legend.location>
 job.docker.image=genepattern/spatialge-stplot:0.1
+job.memory=4Gb
 src.repo=https://github.com/genepattern/spatialGE.STplot
 cpuType=any
 description=Plots of gene expression, cluster memberships, and metadata in spatial context
